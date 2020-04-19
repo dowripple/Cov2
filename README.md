@@ -9,8 +9,12 @@ Once imported, I used Google Maps API to geocode the almost 3,200 counties to ge
 
 The purpose of this dataset is to explore the daily rate of change in confirmed cases by county.  Eventually I will bring in weather data for more analysis as well.  See if there are correlations of a change in confirmed cases to weather, population density or other factors.
 
-### Link to Tableau Dashbaord
+### Link to Tableau Dashboard
 [Covid-19 Dashboard](https://public.tableau.com/profile/michael8262#!/vizhome/Cov2_15873184048850/Dashboard1?publish=yes)
+
+### Images
+![Covid DB ERD](images/covid_db_erd.png)
+*PostgreSQL covid_db Entity Relationship Diagram (ERD)
 
 ### Tools Needed to Create
 |Tool   |Description                                                                                                          |
