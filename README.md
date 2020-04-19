@@ -13,7 +13,7 @@ The purpose of this dataset is to explore the daily rate of change in confirmed 
 [Covid-19 Dashboard](https://public.tableau.com/profile/michael8262#!/vizhome/Cov2_15873184048850/Dashboard1?publish=yes)
 
 ### Images
-![Covid DB ERD](images/covid_db_erd.png)
+![Covid DB ERD](Cov2_Project/images/covid_db_erd.png)
 *PostgreSQL covid_db Entity Relationship Diagram (ERD)
 
 ### Tools Needed to Create
