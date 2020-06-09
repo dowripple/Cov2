@@ -101,7 +101,6 @@ GROUP BY state_fips,
 	  ON cd1.county_fips = cp.county_fips LEFT OUTER JOIN county_deaths cd
 	  ON cd1.county_fips = cd.county_fips
 	 AND cd1.test_date = cd.test_date
-   WHERE cd1.test_date <= '2020-04-16'
-     AND c.county_name NOT LIKE '%Unallocated/Probable%'
+   WHERE c.county_name NOT LIKE '%Unallocated/Probable%'
 	  
   
