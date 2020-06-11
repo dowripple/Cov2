@@ -91,7 +91,7 @@
   SELECT *,
   		 sum_daily_change / 4 AS rolling_sum_avg
     FROM AvgData 
-   WHERE test_date < '2020-06-09'	
+   WHERE test_date < '2020-06-10'	
 
 
 	 
