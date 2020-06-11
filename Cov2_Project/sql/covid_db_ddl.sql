@@ -25,6 +25,11 @@
   DROP TABLE IF EXISTS county_population;
   DROP TABLE IF EXISTS staging_county_deaths;
   DROP TABLE IF EXISTS county_deaths;
+  DROP TABLE IF EXISTS staging_test_dates;
+  
+  -- staging table for test dates
+  CREATE TABLE staging_test_dates
+  		(test_date DATE);
   
   -- staging table for confirmed cases
   CREATE TABLE staging_confirmed_cases

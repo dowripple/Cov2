@@ -79,6 +79,7 @@ GROUP BY state_fips,
 	   )
   SELECT cd1.county_fips,
   		 c.county_name,
+		 CONCAT(c.county_name,' (',s.state_id,')') AS county_desc,
 		 c.latitude,
 		 c.longitude,
 		 s.state_id,
