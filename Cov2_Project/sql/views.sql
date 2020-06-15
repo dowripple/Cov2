@@ -103,5 +103,6 @@ GROUP BY state_fips,
 	  ON cd1.county_fips = cd.county_fips
 	 AND cd1.test_date = cd.test_date
    WHERE c.county_name NOT LIKE '%Unallocated/Probable%'
+     AND cd1.test_date >= '2020-06-01'
 	  
   
